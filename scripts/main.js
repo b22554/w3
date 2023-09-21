@@ -16,10 +16,7 @@ myButton.onclick = function() {
 
 // Image switcher code
 
-myImage.onclick = function() {
-  let mySrc = myImage.getAttribute('src');
-  console.log("画像をクリックしました");
-}
+
 
 const myImage = document.querySelector("img");
 

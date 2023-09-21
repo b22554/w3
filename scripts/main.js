@@ -7,7 +7,7 @@ let myHeading = document.querySelector('h1');
 function setUserName() {
   const myName = prompt("あなたの名前を入力してください。");
   localStorage.setItem("name", myName);
-  myHeading.textContent = `Mozilla はかっこいいよ、${myName} さん`;
+  myHeading.textContent = `Mozilla はかわいいよ、${myName} さん`;
 }
 
 myButton.onclick = function() {
